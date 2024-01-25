@@ -1,0 +1,38 @@
+2024-01-25 19:55:11.151 [main] INFO  org.labs.logger.LoggingApplication - Starting LoggingApplication using Java 17.0.8 with PID 14570 (/home/jeanoliveira/Projetos/logging/target/classes started by jeanoliveira in /home/jeanoliveira/Projetos/logging)
+2024-01-25 19:55:11.152 [main] INFO  org.labs.logger.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 19:55:11.598 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-01-25 19:55:11.603 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-25 19:55:11.605 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-25 19:55:11.605 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-25 19:55:11.634 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-25 19:55:11.635 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 457 ms
+2024-01-25 19:55:11.796 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-25 19:55:11.805 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-01-25 19:55:11.810 [main] INFO  org.labs.logger.LoggingApplication - Started LoggingApplication in 0.854 seconds (process running for 1.079)
+2024-01-25 19:55:18.912 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-25 19:55:18.912 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-25 19:55:18.913 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-01-25 19:55:18.935 [http-nio-8080-exec-1] INFO  info_log - started
+2024-01-25 19:55:18.935 [http-nio-8080-exec-1] INFO  info_log - before sending response
+2024-01-25 19:55:39.800 [http-nio-8080-exec-2] INFO  info_log - started
+2024-01-25 19:55:39.800 [http-nio-8080-exec-2] INFO  error_log - ExceptionTesting the exception logging mechanism
+2024-01-25 19:56:18.810 [http-nio-8080-exec-3] INFO  info_log - started
+2024-01-25 19:56:18.810 [http-nio-8080-exec-3] INFO  error_log - ExceptionTesting the exception logging mechanism
+2024-01-25 19:57:49.979 [main] INFO  org.labs.logger.LoggingApplication - Starting LoggingApplication using Java 17.0.8 with PID 15079 (/home/jeanoliveira/Projetos/logging/target/classes started by jeanoliveira in /home/jeanoliveira/Projetos/logging)
+2024-01-25 19:57:49.980 [main] INFO  org.labs.logger.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 19:57:50.422 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-01-25 19:57:50.427 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-25 19:57:50.429 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-25 19:57:50.429 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-25 19:57:50.456 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-25 19:57:50.457 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 453 ms
+2024-01-25 19:57:50.621 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-25 19:57:50.630 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-01-25 19:57:50.636 [main] INFO  org.labs.logger.LoggingApplication - Started LoggingApplication in 0.85 seconds (process running for 1.063)
+2024-01-25 19:57:55.768 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-25 19:57:55.768 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-25 19:57:55.769 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-01-25 19:57:55.793 [http-nio-8080-exec-1] INFO  info_log - started
+2024-01-25 19:57:55.793 [http-nio-8080-exec-1] INFO  error_log - ExceptionTesting the exception logging mechanism
+2024-01-25 19:58:18.008 [http-nio-8080-exec-2] INFO  info_log - started
+2024-01-25 19:58:18.009 [http-nio-8080-exec-2] INFO  info_log - before sending response

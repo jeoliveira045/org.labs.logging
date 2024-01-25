@@ -1,19 +1,6 @@
-# Getting Started
+# Logging com SLF4j
 
-### Reference Documentation
+### o projeto em questão tem o intuito de servir apenas como lab para explorar a manipulação de logging do Spring
 
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.2/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.2.2/reference/htmlsingle/index.html#web)
-
-### Guides
-
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-
+A ferramenta utilizada foi o SLF4J(Simple Logging Facade for Java). O intuito do lab foi fazer a separação do log de erros, do log de informações gerais, como os debugs.
+para isso, configurações de patterns foram colocadas num arquivo logback.xml.

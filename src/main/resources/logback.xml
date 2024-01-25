@@ -7,11 +7,11 @@
     <property name="logging.error.file.path" value="./"/>
 
     <!-- console log appender -->
-    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-        </encoder>
-    </appender>
+<!--    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
 
     <!-- Normal log appender -->
     <appender name="INFO_FILE" class="ch.qos.logback.core.FileAppender">
@@ -48,9 +48,7 @@
     <!-- Logger definitions for info -->
     <root level="INFO">
         <appender-ref ref="INFO_FILE" />
-
-    </root>
-    <root level="ERROR">
         <appender-ref ref="ERROR_FILE" />
     </root>
+
 </configuration>
